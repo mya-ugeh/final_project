@@ -1,0 +1,46 @@
+section.main.st-emotion-cache-bm2z3a.ea3mdgi8{
+  background-image: url('https://github.com/mya-ugeh/siwes-presentation/blob/master/wp6944248-contact-us-wallpapers.jpg?raw=true');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+
+
+h4#cardiovascular-disease-quiz{
+  margin-top: -1pc;
+  width: 350px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    /* border: 1px solid #ccc; Gray border */
+    /* border-radius: 4px; Rounded borders */
+    background-color: white;
+    color: black;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  button[type=submit] {
+    background-color: #012034;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 6pc;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
