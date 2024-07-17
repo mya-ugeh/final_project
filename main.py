@@ -17,9 +17,6 @@ st.set_page_config(
     initial_sidebar_state='auto'
 )
 
-if platform.system() == "Windows":
-    import pywin32 
-
 # to import css file into streamlit
 with open('css\style.css') as f:
     st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
