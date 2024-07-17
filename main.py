@@ -7,6 +7,7 @@ import hydralit_components as hc
 import bcrypt
 from streamlit_option_menu import option_menu
 import home, about, contact, dashboard, predict, mimo, logout
+import platform
 
 #set page
 st.set_page_config(
@@ -15,6 +16,9 @@ st.set_page_config(
     layout='wide',
     initial_sidebar_state='auto'
 )
+
+if platform.system() == "Windows":
+    import pywin32 
 
 # to import css file into streamlit
 with open('css\style.css') as f:
